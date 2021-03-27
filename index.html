@@ -13,43 +13,50 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="index.html"><img src="./images/logo2.png" alt="home"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
-        <a class="nav-link " href="sermons.html">Sermons</a>
-        <a class="nav-link " href="service.html">Services</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Giving</a>
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-    
-    <div class="card bg-dark text-white">
-      <img src="./images/back2.jpg" class="card-img" alt="Sheepfold">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Sheepfold Bible Church</h5>
-      </div>
-    </div>
-    <div class="about-container">
-      <!--About Image-->
-      <img src="./images/circle-cropped.png" width="200" height="200" class="model" alt="model">
-      <!--About Text-->
-      <div class="about-text">
-        <p>About Us</p>
-        <p>Sheepfold Bible Church</p>
-        <p>We are a Intercontinental, Dynamic, Supernatural and Balanced Church. Our Vision is in threefold which is the
-          vision of the Church, vision of the Kingdom and vision of the Nation. </p>
-        <p>If you want to more about our vision you can click on the link below</p>
-        <button class="contact-us"><a href="vision.html">Learn More</a></button>
-      </div>
-    </div>
+   <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img src="./images/logo2.png" width="80" height="80"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home"></i>Home</a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="about.html">About Us<i class="fa fa-question" aria-hidden="true"></i></a></li>
+					<li class="nav-item"><a class="nav-link disabled"  href="sermons.html"><i class="fa fa-book" aria-hidden="true"></i>Sermons</a></li>
+					<li class="nav-item"><a class="nav-link " href="service.html"><i class="fa fa-heart-o" aria-hidden="true"></i>Services</a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="giving.html"><i class="fa fa-money" aria-hidden="true"></i>Giving</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="./images/back2.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="./images/back2.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="./images/back2.jpg" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
 
     <!--This is the card's section-->
     <div class="row row-cols-1 row-cols-md-2">
